@@ -5,7 +5,7 @@ from main_window import MainWindow
 from PySide6.QtGui import QIcon
 from PySide6.QtWidgets import QApplication
 from variables import WINDOW_ICON_PATH
-from buttons import Button,ButtonGrid
+from buttons import ButtonsGrid
 
 if __name__ == '__main__':
     # Cria a aplicação
@@ -17,13 +17,13 @@ if __name__ == '__main__':
     window.setWindowIcon(icon)
     app.setWindowIcon(icon)
     # Info
-    info = Info('2.0 ^ 10.0 = 1024')
+    info = Info('Sua conta')
     window.addWidgetToVLayout(info)
     # Tela
     display = Display()
     window.addWidgetToVLayout(display)
     #grid
-    buttonGrid = ButtonGrid(display)
+    buttonGrid = ButtonsGrid(display, info)
     window.v_layout.addLayout(buttonGrid)
     
     # Executa tudo
