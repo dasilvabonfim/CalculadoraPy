@@ -1,15 +1,27 @@
 # Calculadora em Python com PySide6
 
-Olá! Este é o repositório do meu projeto de uma calculadora, que estou desenvolvendo usando o PySide6 em Python.
+Este projeto é uma calculadora simples criada usando Python e PySide6.
 
-## Status do Projeto
+![calculadora](https://github.com/dasilvabonfim/CalculadoraPy/assets/112987011/1d4392f6-4d97-46c7-957b-9552747327be)
 
-Este projeto está atualmente em construção e ainda não está funcional. Estou trabalhando duro para implementar todas as funcionalidades e espero ter uma versão funcional em breve.
+A imagem acima mostra a interface da nova calculadora.
 
-## Tecnologias Utilizadas
+## Requisitos
 
-Este projeto está sendo desenvolvido utilizando as seguintes tecnologias:
-
-- Python
+- Python 3.6 ou superior
 - PySide6
 
+## Instalação
+
+Primeiro, clone este repositório para a sua máquina local usando `git clone`.
+
+Instale as dependências necessárias com o seguinte comando:
+
+```bash
+
+pip install PySide6
+```
+# Como usar
+Para usar esta calculadora, execute o seguinte comando no terminal:
+```
+python calculadora.py
